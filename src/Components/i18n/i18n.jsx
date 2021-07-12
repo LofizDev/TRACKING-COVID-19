@@ -7,7 +7,7 @@ import { initReactI18next } from "react-i18next";
 const resources = {
   vn: {
     translation: {
-      "SỐLIỆU":"SỐ LIỆU",
+      "SỐLIỆU":"SỐ LIỆUUU",
       "LCQG": 'Lựa chọn quốc gia',
       "SCM": "Số ca nhiễm",
       "SCK": "Số ca khỏi",
