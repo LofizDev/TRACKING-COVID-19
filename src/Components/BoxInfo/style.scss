@@ -1,0 +1,175 @@
+.boxInfo {
+    max-width: 1350px;
+    margin:  auto;
+    height: 100vh;
+    padding: 0 20px;
+    .wrapper {
+        padding: 0px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        .boxCase__info {
+            display: flex;
+            .boxCase__detail {
+                padding: 30px 42px;
+                border-radius: 16px;
+                border: .5px solid var(--border);
+                margin: 30px 40px 0 0;
+                background-color: var(--item);
+                margin-bottom: 20px;
+                // box-shadow: rgb(126 137 159 / 20%) 0px 1px 1px 0px;
+                p {
+                    color: var(--color);
+                    background-color: transparent;
+                    font-size: 16px;
+                }
+                h4 {
+                    color: var(--title);
+                    margin-top: 5px;
+                    font-size: 1.2em;
+                    background-color: transparent;
+                    
+                }
+            }
+        }.wrapper-left  {
+            margin-right: 10px;
+  
+            select {
+                height: 30px;
+                border: 0;
+                outline: 0;
+                width: 380px;
+                border-bottom:1px solid #6b6d74;
+                margin-bottom: 8px;
+                font-size: 16px;
+                color: var(--selected);
+                font-family: sans-serif;
+            }
+            select:focus {
+                background-color: #F2F2F2;
+            }
+            p {
+                color:var(--p);
+                font-size: 0.75rem;
+                font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+                font-weight: 400;
+                line-height: 1.66;
+                letter-spacing: 0.03333em;
+            }
+        }.wrapper-right {
+            
+            .btn-select {
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+            }
+            .btn-language {
+                margin-left: 30px;
+            }
+        }.map__wrapper-left {
+            margin-top: 80px;
+            h2 {
+                color: var(--title);
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+.title {
+    font-size: 1.9rem !important;
+    letter-spacing: .8px !important;
+}
+// chart container
+.chart-container {
+    margin-top: 5px;
+    .map {
+        margin-left: 20px;
+        border-radius: 18px;
+        margin-top: 5px;
+        padding: 20px;
+        background-color: var(--item);
+        .map__wrapper-scroll tr {
+            background-color: var(--item);
+            margin-top: 0;
+            position: relative;
+        }
+        .map__wrapper-scroll td {
+            background-color: var(--item);
+            color: var(--selected);
+            font-size: 15px;
+        }
+        .map__wrapper-scroll strong {
+            position: absolute;
+            right: 20px;
+            top: 27px;
+            background-color: var(--item);
+        }
+        .map__wrapper-right h2 {
+            background-color: var(--item);
+            padding-bottom: 20px;
+            font-size: 1.2rem;
+            padding-left: 20px;
+        }
+    }
+}
+.language {
+    border: 0;
+    width: 100px;
+    transform: translateY(-25px);
+    height:27px;
+    border-bottom: 1px solid var(--selected);
+    outline: 0;
+}
+.map-item p {
+    font-size: 17px !important;
+}
+.map-item img {
+    width: 20px;
+}
+@media only screen and (max-width: 1224px) {
+    .wrapper {
+        flex-direction: column;
+    }
+  }
+  @media only screen and (max-width: 930px) {
+    .chart-container {
+        flex-direction: column;   
+    }
+    .map__wrapper {
+        background-color: var(--item);
+        width: 100%;
+    }.map__wrapper-right {
+        
+        background-color: var(--item) ;
+    }
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .select-ct {
+     width: 180px !important;
+    }
+    .title {
+        font-size: 18px;
+    }
+    .chart-detail svg {
+        width: 370px;
+    }       .boxCase__detail {
+        padding: 30px 32px !important;
+        margin: 20px 40px 0 0px !important;
+        margin-bottom: 0px !important;
+        p {
+            font-size: 15px !important;
+        }
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .chart-detail svg {
+        width: 320px;
+    }  
+     .boxCase__detail {
+        padding: 20px 22px !important;
+        margin: 20px 40px 0 0px !important;
+    }
+  }
