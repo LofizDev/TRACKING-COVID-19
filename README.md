@@ -7,6 +7,15 @@ Build React Tracking Covid 19 with Multiple Language,DarkMode | REACTJS
 https://lofizdev.github.io/TRACKING-COVID-19
 
 
+
+
+
+
+
+
+
+
+
 # Preview
 ![pj1](https://user-images.githubusercontent.com/86564838/125294580-94e63080-e34e-11eb-9a6d-04b4acea9139.jpg)
 
