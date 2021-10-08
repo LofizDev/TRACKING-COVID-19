@@ -1,6 +1,12 @@
 # Tracking Covid-19 With Multiple Language, Dark Mode
 
-Build React Tracking Covid 19 with Multiple Language,DarkMode | REACTJS,SCSS
+# Features: 
+         + Select option countries.
+         + Total cases, deaths, recorved.
+         + Chart type cases.
+         + Dark mode, light mode.
+         + Multiple language.
+         + Worldwide covid data
 
 
 
